@@ -16,7 +16,7 @@ public class Demo1 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		final List<Integer> nums = new ArrayList<Integer>();
+		final List<Integer> nums = new ArrayList<Integer>(1000000);
 		for (int i = 0; i < 1000000; i++) {
 			nums.add(i);
 		}
